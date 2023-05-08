@@ -3,7 +3,6 @@ USER root
 
 RUN apt-get install wget
 RUN apt-get update && apt-get install unzip 
-RUN rm -rf /usr/local/packer && mv packer /usr/local/
 RUN wget  https://releases.hashicorp.com/packer/1.3.2/packer_1.3.2_linux_amd64.zip
 RUN unzip packer_1.3.2_linux_amd64.zip -d packer
 RUN mv packer /usr/local/

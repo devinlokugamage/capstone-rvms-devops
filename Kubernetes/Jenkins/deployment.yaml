@@ -19,7 +19,7 @@ spec:
       serviceAccountName: jenkins-admin
       containers:
         - name: jenkins
-          image: lokugamage186/jenkins-rvms:1.3
+          image: lokugamage186/jenkins-rvms:1.5
           resources:
             limits:
               memory: "2Gi"

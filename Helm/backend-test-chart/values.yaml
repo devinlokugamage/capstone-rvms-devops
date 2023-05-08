@@ -1,0 +1,16 @@
+replicaCount: 1
+
+image:
+  repository: lokugamage186/rvms-backend
+  tag: 1.4
+
+containerPort: 8080
+
+namespace: rvms-app
+
+service:
+  type: LoadBalancer
+  port: 8080
+  nodePort: 30090
+  externalIP: 3.97.194.206
+

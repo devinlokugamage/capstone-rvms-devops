@@ -1,0 +1,18 @@
+datasources:
+  datasources.yaml:
+    apiVersion: 1
+    datasources:
+    - name: Prometheus
+      type: prometheus
+      access: proxy
+      url: http://rvms-monitor:9090
+      isDefault: true
+
+service:
+  type: NodePort
+  externalIPs:
+    - 99.79.168.249
+
+ingress:
+  enabled: false
+

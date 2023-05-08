@@ -1,0 +1,8 @@
+image:
+  repository: lokugamage186/rvms-frontend
+  tag: new-feature-6
+
+service:
+  type: NodePort
+  nodePort: 30340
+
